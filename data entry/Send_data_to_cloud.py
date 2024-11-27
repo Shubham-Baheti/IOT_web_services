@@ -3,7 +3,7 @@ import time
 
 HOST = '172.29.2.82'
 PORT = 8000
-
+#sending data from middle layer(laptop) to cloud 
 # Connect to the receiver
 
 while True :
