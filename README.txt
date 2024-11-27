@@ -28,3 +28,19 @@ Steps:-
 7. for checking new entries open "http://localhost/project_files/main.php" will be seen here and for checking data through filters till current date you can click on "see Other Details".
 
 8. Send data to gateway through putty and on gateway copy the file named "recieve_from_node.py" which in in data entry folder. Run command "python recieve_from_node.py" on gateway so that data will be recieved on the gateway through sensor. Run "python send_data_to_vm_from_gateway.py" on another terminal on gateway. before running file beware of changing ip address on cloud vm in the python file.
+
+Use Cases of the IoT Data Pipeline:
+Smart Agriculture:
+In agriculture, this system can monitor environmental conditions like temperature and humidity to optimize crop growth. Farmers can use this data to make informed decisions about irrigation, fertilization, and pest control.
+
+Environmental Monitoring:
+The system can be used for monitoring air quality, temperature, humidity, or pollution levels in various environments (e.g., cities, forests, industrial zones), enabling authorities to take preventive actions.
+
+Industrial Automation:
+This project is useful in industries for monitoring machines or equipment in real-time. It can track factors like temperature, humidity, and machine status, enabling predictive maintenance and reducing downtime.
+
+Smart Buildings:
+Used in smart buildings to collect sensor data (temperature, humidity, etc.) for HVAC systems, lighting, and energy optimization. The system ensures efficient energy usage and better indoor air quality.
+
+Supply Chain and Logistics:
+In logistics, IoT sensors can monitor the condition of goods in transit, such as temperature-sensitive pharmaceuticals or food products. Real-time data allows businesses to maintain optimal conditions and traceability.
